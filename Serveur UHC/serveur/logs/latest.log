@@ -1,0 +1,655 @@
+[19:28:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:28:22] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[19:28:23] [Worker-Main-12/INFO]: Loaded 7 recipes
+[19:28:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[19:28:24] [Server thread/INFO]: Loading properties
+[19:28:24] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[19:28:24] [Server thread/INFO]: Debug logging is disabled
+[19:28:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:28:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:28:24] [Server thread/INFO]: Default game type: SURVIVAL
+[19:28:24] [Server thread/INFO]: Generating keypair
+[19:28:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:28:24] [Server thread/INFO]: Using default channel type
+[19:28:25] [Server thread/ERROR]: Ambiguous plugin name `UhcCore' for files `plugins\UhcCore-1.19.jar' and `plugins\UhcCore-1.19.4.jar' in `plugins'
+[19:28:25] [Server thread/INFO]: [UhcCore] Loading UhcCore v1.19
+[19:28:25] [Server thread/INFO]: Preparing level "world"
+[19:28:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:28:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:25] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:25] [Server thread/INFO]: View Distance: 10
+[19:28:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:25] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:28:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:25] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:25] [Server thread/INFO]: View Distance: 10
+[19:28:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:25] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:28:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:25] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:25] [Server thread/INFO]: View Distance: 10
+[19:28:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:25] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:28:26] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:26] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:26] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:29] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[19:28:29] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[19:28:29] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[19:28:29] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[19:28:29] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[19:28:29] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[19:28:30] [Worker-Main-10/INFO]: Preparing spawn area: 84%
+[19:28:30] [Worker-Main-13/INFO]: Preparing spawn area: 91%
+[19:28:31] [Server thread/INFO]: Time elapsed: 5465 ms
+[19:28:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:28:31] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:31] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:32] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[19:28:32] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[19:28:33] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[19:28:33] [Server thread/INFO]: Time elapsed: 2308 ms
+[19:28:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:28:33] [Server thread/INFO]: Preparing spawn area: 0%
+[19:28:33] [Server thread/INFO]: Time elapsed: 474 ms
+[19:28:33] [Server thread/INFO]: [UhcCore] Enabling UhcCore v1.19
+[19:28:33] [Server thread/INFO]: [UhcCore] 1.16 Server detected!
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\scoreboard.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[19:28:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:28:34] [Server thread/INFO]: Done (8.525s)! For help, type "help"
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\lang.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\config.yml
+[19:28:34] [Server thread/WARN]: [UhcCore] WorldEdit plugin not found, there will be no support of schematics.
+[19:28:34] [Server thread/WARN]: [UhcCore] Vault plugin not found, there will be no support of economy rewards.
+[19:28:34] [Server thread/WARN]: [UhcCore] ProtocolLib plugin not found.
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Start loading kits
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\kits.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Loaded 0 kits
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading banned crafts list
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\crafts.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading custom crafts
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\crafts.yml
+[19:28:34] [Server thread/INFO]: [UhcCore] Done loading custom crafts
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2549)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.utils.NMSUtils.removeFinal(NMSUtils.java:49)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.getField(Wrapper_1_16_R3.java:34)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.version.Wrapper_1_16_R3.replaceBiomes(Wrapper_1_16_R3.java:24)
+[19:28:34] [Server thread/WARN]: 	at com.pieterdebot.biomemapping.BiomeMappingAPI.replaceBiomes(BiomeMappingAPI.java:47)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.replaceOceanBiomes(MapLoader.java:364)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.maploader.MapLoader.loadWorlds(MapLoader.java:70)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.game.GameManager.loadNewGame(GameManager.java:239)
+[19:28:34] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.lambda$onEnable$0(UhcCore.java:25)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:81)
+[19:28:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:400)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1179)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:394)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1127)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:966)
+[19:28:34] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[19:28:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[19:28:34] [Server thread/INFO]: [UhcCore] Deleting last world : 6bfc2064-b31d-4ec6-a58a-acb50bd77d62
+[19:28:34] [Server thread/INFO]: [UhcCore] Deleting last world : cec4d609-1fa5-4989-ac84-a7ab62abb33d
+[19:28:34] [Server thread/INFO]: [UhcCore] No world to delete
+[19:28:34] [Server thread/INFO]: [UhcCore] Creating new world : d799c422-f77f-4e3a-9287-835695cd9f5a
+[19:28:34] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[19:28:34] [Server thread/INFO]: -------- World Settings For [d799c422-f77f-4e3a-9287-835695cd9f5a] --------
+[19:28:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:34] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:34] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:34] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:34] [Server thread/INFO]: View Distance: 10
+[19:28:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:34] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:34] [Thread-7/INFO]: 
+[19:28:34] [Thread-7/INFO]: [UhcCore] A new version of the UhcCore plugin is available!
+[19:28:34] [Thread-7/INFO]: Current version: 1.19
+[19:28:34] [Thread-7/INFO]: New version: 1.19.4
+[19:28:34] [Thread-7/INFO]: To update use: /uhccore update
+[19:28:34] [Thread-7/INFO]: WARNING: This will restart your server!
+[19:28:34] [Thread-7/INFO]: 
+[19:28:36] [Server thread/INFO]: Preparing start region for dimension minecraft:d799c422-f77f-4e3a-9287-835695cd9f5a
+[19:28:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:28:36] [Worker-Main-14/INFO]: Preparing spawn area: 3%
+[19:28:37] [Worker-Main-12/INFO]: Preparing spawn area: 10%
+[19:28:37] [Worker-Main-14/INFO]: Preparing spawn area: 14%
+[19:28:38] [Worker-Main-13/INFO]: Preparing spawn area: 26%
+[19:28:38] [Worker-Main-13/INFO]: Preparing spawn area: 29%
+[19:28:39] [Worker-Main-13/INFO]: Preparing spawn area: 37%
+[19:28:39] [Worker-Main-8/INFO]: Preparing spawn area: 54%
+[19:28:40] [Worker-Main-10/INFO]: Preparing spawn area: 61%
+[19:28:40] [Worker-Main-13/INFO]: Preparing spawn area: 72%
+[19:28:41] [Worker-Main-13/INFO]: Preparing spawn area: 81%
+[19:28:41] [Worker-Main-14/INFO]: Preparing spawn area: 90%
+[19:28:42] [Server thread/INFO]: Time elapsed: 5973 ms
+[19:28:42] [Server thread/INFO]: [UhcCore] Creating new world : d63555b8-ad18-499f-a317-b966f3d7ceb3
+[19:28:42] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[19:28:42] [Server thread/INFO]: -------- World Settings For [d63555b8-ad18-499f-a317-b966f3d7ceb3] --------
+[19:28:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:42] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:42] [Server thread/INFO]: View Distance: 10
+[19:28:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:42] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:42] [Server thread/WARN]: Unable to find spawn biome
+[19:28:42] [Server thread/INFO]: Preparing start region for dimension minecraft:d63555b8-ad18-499f-a317-b966f3d7ceb3
+[19:28:42] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:28:43] [Worker-Main-12/INFO]: Preparing spawn area: 3%
+[19:28:43] [Worker-Main-14/INFO]: Preparing spawn area: 9%
+[19:28:44] [Worker-Main-10/INFO]: Preparing spawn area: 17%
+[19:28:44] [Worker-Main-9/INFO]: Preparing spawn area: 23%
+[19:28:45] [Worker-Main-12/INFO]: Preparing spawn area: 32%
+[19:28:45] [Worker-Main-12/INFO]: Preparing spawn area: 40%
+[19:28:46] [Worker-Main-13/INFO]: Preparing spawn area: 49%
+[19:28:46] [Worker-Main-9/INFO]: Preparing spawn area: 58%
+[19:28:47] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[19:28:47] [Worker-Main-8/INFO]: Preparing spawn area: 79%
+[19:28:48] [Worker-Main-12/INFO]: Preparing spawn area: 86%
+[19:28:48] [Worker-Main-14/INFO]: Preparing spawn area: 99%
+[19:28:48] [Server thread/INFO]: Time elapsed: 6026 ms
+[19:28:48] [Server thread/INFO]: [UhcCore] Creating new world : 25154f01-b543-4b2e-8713-a8aacf230b5f
+[19:28:48] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[19:28:48] [Server thread/INFO]: -------- World Settings For [25154f01-b543-4b2e-8713-a8aacf230b5f] --------
+[19:28:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[19:28:48] [Server thread/INFO]: Mob Spawn Range: 6
+[19:28:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:28:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:28:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:28:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:28:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:28:48] [Server thread/INFO]: View Distance: 10
+[19:28:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:28:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[19:28:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:28:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:28:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:28:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:28:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:28:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:28:48] [Server thread/WARN]: Unable to find spawn biome
+[19:28:48] [Server thread/INFO]: Preparing start region for dimension minecraft:25154f01-b543-4b2e-8713-a8aacf230b5f
+[19:28:48] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:28:49] [Worker-Main-12/INFO]: Preparing spawn area: 33%
+[19:28:49] [Server thread/INFO]: Time elapsed: 975 ms
+[19:28:49] [Server thread/INFO]: [UhcCore] Generating environment NORMAL
+[19:28:49] [Server thread/INFO]: [UhcCore] Loading a total 16641.0 chunks, up to chunk ( 64 , 64 )
+[19:28:49] [Server thread/INFO]: [UhcCore] Resting 20 ticks every 200 chunks
+[19:28:49] [Server thread/INFO]: [UhcCore] Loading map NORMAL 0.0%
+[19:28:59] [Server thread/INFO]: [UhcCore] Loading map NORMAL 1.2% - 200/16641 chunks loaded
+[19:28:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10936ms or 218 ticks behind
+[19:29:05] [Server thread/INFO]: [UhcCore] Loading map NORMAL 2.4% - 400/16641 chunks loaded
+[19:29:11] [Server thread/INFO]: [UhcCore] Loading map NORMAL 3.6% - 600/16641 chunks loaded
+[19:29:17] [Server thread/INFO]: [UhcCore] Loading map NORMAL 4.8% - 800/16641 chunks loaded
+[19:29:23] [Server thread/INFO]: [UhcCore] Loading map NORMAL 6.0% - 1000/16641 chunks loaded
+[19:29:28] [Server thread/INFO]: [UhcCore] Loading map NORMAL 7.2% - 1200/16641 chunks loaded
+[19:29:34] [Server thread/INFO]: [UhcCore] Loading map NORMAL 8.4% - 1400/16641 chunks loaded
+[19:29:40] [Server thread/INFO]: [UhcCore] Loading map NORMAL 9.6% - 1600/16641 chunks loaded
+[19:29:45] [Server thread/INFO]: [UhcCore] Loading map NORMAL 10.8% - 1800/16641 chunks loaded
+[19:29:52] [Server thread/INFO]: [UhcCore] Loading map NORMAL 12.0% - 2000/16641 chunks loaded
+[19:29:58] [Server thread/INFO]: [UhcCore] Loading map NORMAL 13.2% - 2200/16641 chunks loaded
+[19:30:03] [Server thread/INFO]: [UhcCore] Loading map NORMAL 14.4% - 2400/16641 chunks loaded
+[19:30:09] [Server thread/INFO]: [UhcCore] Loading map NORMAL 15.6% - 2600/16641 chunks loaded
+[19:30:15] [Server thread/INFO]: [UhcCore] Loading map NORMAL 16.8% - 2800/16641 chunks loaded
+[19:30:20] [Server thread/INFO]: [UhcCore] Loading map NORMAL 18.0% - 3000/16641 chunks loaded
+[19:30:27] [Server thread/INFO]: [UhcCore] Loading map NORMAL 19.2% - 3200/16641 chunks loaded
+[19:30:32] [Server thread/INFO]: [UhcCore] Loading map NORMAL 20.4% - 3400/16641 chunks loaded
+[19:30:38] [Server thread/INFO]: [UhcCore] Loading map NORMAL 21.6% - 3600/16641 chunks loaded
+[19:30:43] [Server thread/INFO]: [UhcCore] Loading map NORMAL 22.8% - 3800/16641 chunks loaded
+[19:30:49] [Server thread/INFO]: [UhcCore] Loading map NORMAL 24.0% - 4000/16641 chunks loaded
+[19:30:55] [Server thread/INFO]: [UhcCore] Loading map NORMAL 25.2% - 4200/16641 chunks loaded
+[19:31:00] [Server thread/INFO]: [UhcCore] Loading map NORMAL 26.4% - 4400/16641 chunks loaded
+[19:31:05] [Server thread/INFO]: [UhcCore] Loading map NORMAL 27.6% - 4600/16641 chunks loaded
+[19:31:11] [Server thread/INFO]: [UhcCore] Loading map NORMAL 28.8% - 4800/16641 chunks loaded
+[19:31:17] [Server thread/INFO]: [UhcCore] Loading map NORMAL 30.0% - 5000/16641 chunks loaded
+[19:31:23] [Server thread/INFO]: [UhcCore] Loading map NORMAL 31.2% - 5200/16641 chunks loaded
+[19:31:28] [Server thread/INFO]: [UhcCore] Loading map NORMAL 32.4% - 5400/16641 chunks loaded
+[19:31:34] [Server thread/INFO]: [UhcCore] Loading map NORMAL 33.6% - 5600/16641 chunks loaded
+[19:31:40] [Server thread/INFO]: [UhcCore] Loading map NORMAL 34.8% - 5800/16641 chunks loaded
+[19:31:45] [Server thread/INFO]: [UhcCore] Loading map NORMAL 36.0% - 6000/16641 chunks loaded
+[19:31:50] [Server thread/INFO]: [UhcCore] Loading map NORMAL 37.2% - 6200/16641 chunks loaded
+[19:31:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 141260ms or 2825 ticks behind
+[19:31:57] [Server thread/INFO]: [UhcCore] Loading map NORMAL 38.4% - 6400/16641 chunks loaded
+[19:32:02] [Server thread/INFO]: [UhcCore] Loading map NORMAL 39.6% - 6600/16641 chunks loaded
+[19:32:07] [Server thread/INFO]: [UhcCore] Loading map NORMAL 40.8% - 6800/16641 chunks loaded
+[19:32:12] [Server thread/INFO]: [UhcCore] Loading map NORMAL 42.0% - 7000/16641 chunks loaded
+[19:32:17] [Server thread/INFO]: [UhcCore] Loading map NORMAL 43.2% - 7200/16641 chunks loaded
+[19:32:22] [Server thread/INFO]: [UhcCore] Loading map NORMAL 44.4% - 7400/16641 chunks loaded
+[19:32:27] [Server thread/INFO]: [UhcCore] Loading map NORMAL 45.6% - 7600/16641 chunks loaded
+[19:32:32] [Server thread/INFO]: [UhcCore] Loading map NORMAL 46.8% - 7800/16641 chunks loaded
+[19:32:36] [Server thread/INFO]: [UhcCore] Loading map NORMAL 48.0% - 8000/16641 chunks loaded
+[19:32:41] [Server thread/INFO]: [UhcCore] Loading map NORMAL 49.2% - 8200/16641 chunks loaded
+[19:32:46] [Server thread/INFO]: [UhcCore] Loading map NORMAL 50.4% - 8400/16641 chunks loaded
+[19:32:50] [Server thread/INFO]: [UhcCore] Loading map NORMAL 51.6% - 8600/16641 chunks loaded
+[19:32:54] [Server thread/INFO]: [UhcCore] Loading map NORMAL 52.8% - 8800/16641 chunks loaded
+[19:32:58] [Server thread/INFO]: [UhcCore] Loading map NORMAL 54.0% - 9000/16641 chunks loaded
+[19:33:02] [Server thread/INFO]: [UhcCore] Loading map NORMAL 55.2% - 9200/16641 chunks loaded
+[19:33:06] [Server thread/INFO]: [UhcCore] Loading map NORMAL 56.4% - 9400/16641 chunks loaded
+[19:33:09] [Server thread/INFO]: [UhcCore] Loading map NORMAL 57.6% - 9600/16641 chunks loaded
+[19:33:13] [Server thread/INFO]: [UhcCore] Loading map NORMAL 58.8% - 9800/16641 chunks loaded
+[19:33:17] [Server thread/INFO]: [UhcCore] Loading map NORMAL 60.0% - 10000/16641 chunks loaded
+[19:33:21] [Server thread/INFO]: [UhcCore] Loading map NORMAL 61.2% - 10200/16641 chunks loaded
+[19:33:24] [Server thread/INFO]: [UhcCore] Loading map NORMAL 62.4% - 10400/16641 chunks loaded
+[19:33:28] [Server thread/INFO]: [UhcCore] Loading map NORMAL 63.6% - 10600/16641 chunks loaded
+[19:33:32] [Server thread/INFO]: [UhcCore] Loading map NORMAL 64.8% - 10800/16641 chunks loaded
+[19:33:36] [Server thread/INFO]: [UhcCore] Loading map NORMAL 66.1% - 11000/16641 chunks loaded
+[19:33:39] [Server thread/INFO]: [UhcCore] Loading map NORMAL 67.3% - 11200/16641 chunks loaded
+[19:33:43] [Server thread/INFO]: [UhcCore] Loading map NORMAL 68.5% - 11400/16641 chunks loaded
+[19:33:47] [Server thread/INFO]: [UhcCore] Loading map NORMAL 69.7% - 11600/16641 chunks loaded
+[19:33:51] [Server thread/INFO]: [UhcCore] Loading map NORMAL 70.9% - 11800/16641 chunks loaded
+[19:33:56] [Server thread/INFO]: [UhcCore] Loading map NORMAL 72.1% - 12000/16641 chunks loaded
+[19:34:00] [Server thread/INFO]: [UhcCore] Loading map NORMAL 73.3% - 12200/16641 chunks loaded
+[19:34:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 99863ms or 1997 ticks behind
+[19:34:06] [Server thread/INFO]: [UhcCore] Loading map NORMAL 74.5% - 12400/16641 chunks loaded
+[19:34:10] [Server thread/INFO]: [UhcCore] Loading map NORMAL 75.7% - 12600/16641 chunks loaded
+[19:34:15] [Server thread/INFO]: [UhcCore] Loading map NORMAL 76.9% - 12800/16641 chunks loaded
+[19:34:19] [Server thread/INFO]: [UhcCore] Loading map NORMAL 78.1% - 13000/16641 chunks loaded
+[19:34:24] [Server thread/INFO]: [UhcCore] Loading map NORMAL 79.3% - 13200/16641 chunks loaded
+[19:34:28] [Server thread/INFO]: [UhcCore] Loading map NORMAL 80.5% - 13400/16641 chunks loaded
+[19:34:33] [Server thread/INFO]: [UhcCore] Loading map NORMAL 81.7% - 13600/16641 chunks loaded
+[19:34:38] [Server thread/INFO]: [UhcCore] Loading map NORMAL 82.9% - 13800/16641 chunks loaded
+[19:34:43] [Server thread/INFO]: [UhcCore] Loading map NORMAL 84.1% - 14000/16641 chunks loaded
+[19:34:48] [Server thread/INFO]: [UhcCore] Loading map NORMAL 85.3% - 14200/16641 chunks loaded
+[19:34:53] [Server thread/INFO]: [UhcCore] Loading map NORMAL 86.5% - 14400/16641 chunks loaded
+[19:34:58] [Server thread/INFO]: [UhcCore] Loading map NORMAL 87.7% - 14600/16641 chunks loaded
+[19:35:03] [Server thread/INFO]: [UhcCore] Loading map NORMAL 88.9% - 14800/16641 chunks loaded
+[19:35:09] [Server thread/INFO]: [UhcCore] Loading map NORMAL 90.1% - 15000/16641 chunks loaded
+[19:35:13] [Server thread/INFO]: [UhcCore] Loading map NORMAL 91.3% - 15200/16641 chunks loaded
+[19:35:19] [Server thread/INFO]: [UhcCore] Loading map NORMAL 92.5% - 15400/16641 chunks loaded
+[19:35:23] [Server thread/INFO]: [UhcCore] Loading map NORMAL 93.7% - 15600/16641 chunks loaded
+[19:35:29] [Server thread/INFO]: [UhcCore] Loading map NORMAL 94.9% - 15800/16641 chunks loaded
+[19:35:34] [Server thread/INFO]: [UhcCore] Loading map NORMAL 96.1% - 16000/16641 chunks loaded
+[19:35:39] [Server thread/INFO]: [UhcCore] Loading map NORMAL 97.3% - 16200/16641 chunks loaded
+[19:35:44] [Server thread/INFO]: [UhcCore] Loading map NORMAL 98.5% - 16400/16641 chunks loaded
+[19:35:49] [Server thread/INFO]: [UhcCore] Loading map NORMAL 99.7% - 16600/16641 chunks loaded
+[19:35:50] [Server thread/INFO]: [UhcCore] Environment NORMAL 100% loaded
+[19:35:50] [Server thread/INFO]: [UhcCore] Generating environment NETHER
+[19:35:50] [Server thread/INFO]: [UhcCore] Loading a total 4225.0 chunks, up to chunk ( 32 , 32 )
+[19:35:50] [Server thread/INFO]: [UhcCore] Resting 20 ticks every 200 chunks
+[19:35:50] [Server thread/INFO]: [UhcCore] Loading map NETHER 0.0%
+[19:35:54] [Server thread/INFO]: [UhcCore] Loading map NETHER 4.7% - 200/4225 chunks loaded
+[19:35:57] [Server thread/INFO]: [UhcCore] Loading map NETHER 9.4% - 400/4225 chunks loaded
+[19:36:00] [Server thread/INFO]: [UhcCore] Loading map NETHER 14.2% - 600/4225 chunks loaded
+[19:36:03] [Server thread/INFO]: [UhcCore] Loading map NETHER 18.9% - 800/4225 chunks loaded
+[19:36:07] [Server thread/INFO]: [UhcCore] Loading map NETHER 23.6% - 1000/4225 chunks loaded
+[19:36:11] [Server thread/INFO]: [UhcCore] Loading map NETHER 28.4% - 1200/4225 chunks loaded
+[19:36:13] [Server thread/INFO]: [UhcCore] Loading map NETHER 33.1% - 1400/4225 chunks loaded
+[19:36:16] [Server thread/INFO]: [UhcCore] Loading map NETHER 37.8% - 1600/4225 chunks loaded
+[19:36:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 105418ms or 2108 ticks behind
+[19:36:19] [Server thread/INFO]: [UhcCore] Loading map NETHER 42.6% - 1800/4225 chunks loaded
+[19:36:22] [Server thread/INFO]: [UhcCore] Loading map NETHER 47.3% - 2000/4225 chunks loaded
+[19:36:24] [Server thread/INFO]: [UhcCore] Loading map NETHER 52.0% - 2200/4225 chunks loaded
+[19:36:26] [Server thread/INFO]: [UhcCore] Loading map NETHER 56.8% - 2400/4225 chunks loaded
+[19:36:28] [Server thread/INFO]: [UhcCore] Loading map NETHER 61.5% - 2600/4225 chunks loaded
+[19:36:30] [Server thread/INFO]: [UhcCore] Loading map NETHER 66.2% - 2800/4225 chunks loaded
+[19:36:32] [Server thread/INFO]: [UhcCore] Loading map NETHER 71.0% - 3000/4225 chunks loaded
+[19:36:35] [Server thread/INFO]: [UhcCore] Loading map NETHER 75.7% - 3200/4225 chunks loaded
+[19:36:37] [Server thread/INFO]: [UhcCore] Loading map NETHER 80.4% - 3400/4225 chunks loaded
+[19:36:40] [Server thread/INFO]: [UhcCore] Loading map NETHER 85.2% - 3600/4225 chunks loaded
+[19:36:43] [Server thread/INFO]: [UhcCore] Loading map NETHER 89.9% - 3800/4225 chunks loaded
+[19:36:46] [Server thread/INFO]: [UhcCore] Loading map NETHER 94.6% - 4000/4225 chunks loaded
+[19:36:50] [Server thread/INFO]: [UhcCore] Loading map NETHER 99.4% - 4200/4225 chunks loaded
+[19:36:50] [Server thread/INFO]: [UhcCore] Environment NETHER 100% loaded
+[19:36:50] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[19:36:52] [Server thread/INFO]: [UhcCore] No WorldEdit/schematic installed so ending with deathmatch at 0 0
+[19:36:52] [Server thread/INFO]: §a[UhcCore]§r Players are now allowed to join
+[19:36:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8500ms or 170 ticks behind
+[20:27:16] [User Authenticator #1/INFO]: UUID of player Blackcreed is 0b2f4860-2f7c-4b55-9e10-edcf7216a6a9
+[20:27:16] [Server thread/INFO]: Blackcreed[/127.0.0.1:49658] logged in with entity id 4732 at ([world]-38.5, 72.0, 214.5)
+[20:28:00] [Server thread/INFO]: Blackcreed lost connection: Disconnected
+[20:28:00] [Server thread/INFO]: Blackcreed left the game
+[20:28:24] [Server thread/INFO]: Stopping the server
+[20:28:24] [Server thread/INFO]: Stopping server
+[20:28:24] [Server thread/INFO]: [UhcCore] Disabling UhcCore v1.19
+[20:28:24] [Server thread/INFO]: [UhcCore] Running auto update.
+[20:28:25] [Server thread/INFO]: [UhcCore] New plugin version downloaded.
+[20:28:25] [Server thread/WARN]: java.io.FileNotFoundException: C:\Users\Elouan\Desktop\Serveur%20UHC\serveur\plugins\UhcCore-1.19.jar (Le chemin d’accès spécifié est introuvable)
+[20:28:25] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[20:28:25] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+[20:28:25] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+[20:28:25] [Server thread/WARN]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[20:28:25] [Server thread/WARN]: 	at com.gmail.val59000mc.utils.FileUtils.scheduleFileForDeletion(FileUtils.java:128)
+[20:28:25] [Server thread/WARN]: 	at com.gmail.val59000mc.Updater.updatePlugin(Updater.java:179)
+[20:28:25] [Server thread/WARN]: 	at com.gmail.val59000mc.Updater.runAutoUpdate(Updater.java:203)
+[20:28:25] [Server thread/WARN]: 	at com.gmail.val59000mc.UhcCore.onDisable(UhcCore.java:64)
+[20:28:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265)
+[20:28:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:367)
+[20:28:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:501)
+[20:28:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:493)
+[20:28:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.disablePlugins(CraftServer.java:426)
+[20:28:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:835)
+[20:28:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:689)
+[20:28:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1007)
+[20:28:25] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273)
+[20:28:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[20:28:25] [Server thread/INFO]: [UhcCore] Loading plugins\UhcCore\storage.yml
+[20:28:25] [Server thread/INFO]: [UhcCore] Old plugin version will be deleted on next startup.
+[20:28:25] [Server thread/INFO]: [UhcCore] Plugin disabled
+[20:28:25] [Server thread/INFO]: Saving players
+[20:28:26] [Server thread/INFO]: Saving worlds
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[d799c422-f77f-4e3a-9287-835695cd9f5a]'/minecraft:d799c422-f77f-4e3a-9287-835695cd9f5a
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (d799c422-f77f-4e3a-9287-835695cd9f5a): All chunks are saved
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[d63555b8-ad18-499f-a317-b966f3d7ceb3]'/minecraft:d63555b8-ad18-499f-a317-b966f3d7ceb3
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[25154f01-b543-4b2e-8713-a8aacf230b5f]'/minecraft:25154f01-b543-4b2e-8713-a8aacf230b5f
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (d799c422-f77f-4e3a-9287-835695cd9f5a): All chunks are saved
+[20:28:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

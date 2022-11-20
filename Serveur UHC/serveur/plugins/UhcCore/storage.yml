@@ -1,0 +1,7 @@
+worlds:
+  normal: d799c422-f77f-4e3a-9287-835695cd9f5a
+  nether: d63555b8-ad18-499f-a317-b966f3d7ceb3
+  the_end: 25154f01-b543-4b2e-8713-a8aacf230b5f
+games: []
+delete:
+- C:\Users\Elouan\Desktop\Serveur%20UHC\serveur\plugins\UhcCore-1.19.jar
