@@ -5,6 +5,5 @@ services:
     restart: always
     ports:
       - '25565:25565'
-      - '24454:24454/udp'
     volumes:
       - '/srv/minecraft:/srv/minecraft'
