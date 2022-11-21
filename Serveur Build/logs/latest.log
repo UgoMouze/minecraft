@@ -1,732 +1,250 @@
-[09:34:22] [ServerMain/INFO]: Building unoptimized datafixer
-[09:34:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:34:27] [ServerMain/INFO]: Loaded 7 recipes
-[09:34:30] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[09:34:30] [Server thread/INFO]: Loading properties
-[09:34:30] [Server thread/INFO]: This server is running CraftBukkit version 3606-Spigot-6198b5a-300e744 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[09:34:30] [Server thread/INFO]: Debug logging is disabled
-[09:34:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:34:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:34:31] [Server thread/INFO]: Default game type: SURVIVAL
-[09:34:31] [Server thread/INFO]: Generating keypair
-[09:34:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:34:31] [Server thread/INFO]: Using default channel type
-[09:34:32] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
-[09:34:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[09:34:33] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v8.3.0
-[09:34:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
-[09:34:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1a3face6]
-[09:34:34] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
-[09:34:34] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+17-6e931b2
-[09:34:34] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v6.10.4-SNAPSHOT
-[09:34:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
-[09:34:35] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[09:34:35] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.40[m
-[09:34:35] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[09:34:35] [Server thread/INFO]: [m
-[09:34:35] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[09:34:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[09:34:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[09:34:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[09:34:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3186ms)
-[09:34:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[09:34:38] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.7 which is not a depend or softdepend of this plugin.
-[09:34:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[09:34:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[09:34:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[09:34:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[09:34:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
-[09:34:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[09:34:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[09:34:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[09:34:42] [Server thread/INFO]: [WorldEdit] ====================================================
-[09:34:42] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[09:34:42] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[09:34:42] [Server thread/INFO]: [WorldEdit]   
-[09:34:42] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[09:34:42] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[09:34:42] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[09:34:42] [Server thread/INFO]: [WorldEdit]   
-[09:34:42] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[09:34:42] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[09:34:42] [Server thread/INFO]: [WorldEdit]   
-[09:34:42] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[09:34:42] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[09:34:42] [Server thread/INFO]: [WorldEdit]   
-[09:34:42] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[09:34:42] [Server thread/INFO]: [WorldEdit] ====================================================
-[09:34:42] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v6.10.4-SNAPSHOT
-[09:34:42] [Server thread/INFO]: Loaded caption map for namespace 'plotsquared': com.plotsquared.core.configuration.caption.LocalizedCaptionMap
-[09:34:42] [Server thread/INFO]: Key: plot-expiry | Value: false
-[09:34:42] [Server thread/INFO]: Key: worlds | Value: false
-[09:34:42] [Server thread/INFO]: Key: kill-named-road-mobs | Value: false
-[09:34:42] [Server thread/INFO]: Key: per-user-locale | Value: false
-[09:34:42] [Server thread/INFO]: Key: worldedit-restrictions | Value: true
-[09:34:42] [Server thread/INFO]: Key: external-placeholders | Value: true
-[09:34:42] [Server thread/INFO]: Key: kill-owned-road-mobs | Value: false
-[09:34:42] [Server thread/INFO]: Key: disable-beacon-effect-overflow | Value: true
-[09:34:42] [Server thread/INFO]: Key: database | Value: true
-[09:34:42] [Server thread/INFO]: Key: component-presets | Value: true
-[09:34:42] [Server thread/INFO]: Key: chunk-processor | Value: false
-[09:34:42] [Server thread/INFO]: Key: extended-username-completion | Value: true
-[09:34:42] [Server thread/INFO]: Key: events | Value: true
-[09:34:42] [Server thread/INFO]: Key: commands | Value: true
-[09:34:42] [Server thread/INFO]: Key: kill-road-mobs | Value: false
-[09:34:42] [Server thread/INFO]: Key: kill-road-items | Value: false
-[09:34:42] [Server thread/INFO]: Key: database-purger | Value: false
-[09:34:42] [Server thread/INFO]: Key: economy | Value: false
-[09:34:42] [Server thread/INFO]: Key: persistent-road-regen | Value: true
-[09:34:42] [Server thread/INFO]: Key: kill-road-vehicles | Value: false
-[09:34:42] [Server thread/INFO]: Key: default-locale | Value: en
-[09:34:42] [Server thread/INFO]: Key: use-mvdwapi | Value: true
-[09:34:42] [Server thread/INFO]: Key: persistent-meta | Value: true
-[09:34:42] [Server thread/INFO]: Key: tab-completed-aliases | Value: [plot, plots, p, plotsquared, plot2, p2, ps, 2, plotme, plotz, ap]
-[09:34:42] [Server thread/INFO]: Key: ban-deleter | Value: false
-[09:34:42] [Server thread/INFO]: Key: update-notifications | Value: true
-[09:34:42] [Server thread/INFO]: Key: rating-cache | Value: true
-[09:34:42] [Server thread/INFO]: Key: comment-notifier | Value: true
-[09:34:43] [Server thread/INFO]: Couldn't verify purchase :(
-[09:34:44] [Server thread/INFO]: Connection to database established. Type: SQLite
-[09:34:44] [Server thread/INFO]: PlotSquared hooked into WorldEdit
-[09:34:44] [Server thread/INFO]: (UUID) Using LuckPerms as a complementary UUID service
-[09:34:44] [Server thread/INFO]: (UUID) Using EssentialsX as a complementary UUID service
-[09:34:44] [Server thread/INFO]: (UUID) 1 UUIDs will be cached
-[09:34:44] [Server thread/INFO]: Preparing level "plotworld"
-[09:34:44] [Server thread/INFO]: -------- World Settings For [plotworld] --------
-[09:34:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:34:44] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:34:44] [Server thread/INFO]: View Distance: 10
-[09:34:44] [Server thread/INFO]: Simulation Distance: 10
-[09:34:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:34:44] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:34:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:34:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:34:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:34:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:34:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:34:44] [Server thread/INFO]: Max TNT Explosions: 100
-[09:34:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:34:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:34:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:34:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:34:44] [Server thread/INFO]: Mob Spawn Range: 6
-[09:34:46] [Server thread/INFO]: Detected world load for 'plotworld'
-[09:34:46] [Server thread/INFO]: - generator: PlotSquared>PlotSquared
-[09:34:46] [Server thread/INFO]: - plot world: com.plotsquared.core.generator.HybridPlotWorld
-[09:34:46] [Server thread/INFO]: - plot area manager: com.plotsquared.core.generator.HybridPlotManager
-[09:34:46] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22mArea flags: [0;36;22m[][m
-[09:34:46] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22mRoad flags: [0;36;22m[][m
-[09:34:46] [Server thread/INFO]: - Dumping settings for ClassicPlotWorld with name plotworld
-[09:34:46] [Server thread/INFO]: -- road_schematic_enabled = true
-[09:34:46] [Server thread/INFO]: -- plot_schematic = false
-[09:34:46] [Server thread/INFO]: -- plot_schematic_height = -1
-[09:34:46] [Server thread/INFO]: -- path_width_lower = 10
-[09:34:46] [Server thread/INFO]: -- path_width_upper = 212
-[09:34:46] [Server thread/INFO]: -- schem_y = -40
-[09:34:46] [Server thread/INFO]: -- road_height = -40
-[09:34:46] [Server thread/INFO]: -- plot_height = -40
-[09:34:46] [Server thread/INFO]: -- wall_height = -40
-[09:34:46] [Server thread/INFO]: -- main_block = minecraft:stone
-[09:34:46] [Server thread/INFO]: -- top_block = minecraft:grass_block
-[09:34:46] [Server thread/INFO]: -- wall_block = minecraft:stone_slab
-[09:34:46] [Server thread/INFO]: -- claimed_wall_block = minecraft:sandstone_slab
-[09:34:46] [Server thread/INFO]: -- wall_filling = minecraft:stone
-[09:34:46] [Server thread/INFO]: -- road_block = minecraft:quartz_block
-[09:34:46] [Server thread/INFO]: -- plot_bedrock = true
-[09:34:46] [Server thread/INFO]: -- place_top_block = true
-[09:34:46] [Server thread/INFO]: -- plot_width = 201
-[09:34:46] [Server thread/INFO]: -- road_width = 21
-[09:34:46] [Server thread/INFO]: -- road_offset_x = 0
-[09:34:46] [Server thread/INFO]: -- road_offset_z = 0
-[09:34:46] [Server thread/INFO]: -- size = 222
-[09:34:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:34:52] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[09:34:52] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[09:34:53] [Worker-Main-9/INFO]: Preparing spawn area: 2%
-[09:34:53] [Worker-Main-4/INFO]: Preparing spawn area: 47%
-[09:34:54] [Worker-Main-4/INFO]: Preparing spawn area: 82%
-[09:34:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared will fetch UUIDs in groups of 200
-[09:34:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared has cached 100,0% of UUIDs
-[09:34:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared has cached all UUIDs
-[09:34:54] [Server thread/INFO]: Time elapsed: 7714 ms
-[09:34:54] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v8.3.0
-[09:34:55] [Server thread/INFO]: [VoxelSniper] Registered 68 Sniper Brushes with 134 handles.
-[09:34:55] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
-[09:34:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[09:34:55] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[09:34:55] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
-[09:34:56] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[09:34:56] [Server thread/INFO]: No kits found to migrate.
-[09:34:56] [Server thread/INFO]: Loaded 38132 items from items.json.
-[09:34:57] [Server thread/INFO]: Using locale fr_FR
-[09:34:57] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[09:34:57] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[09:34:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[09:34:57] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[09:34:57] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+17-6e931b2
-[09:34:57] [Server thread/WARN]: §4Versions différentes ! Veuillez mettre à jour tous les jars Essentials à la même version.
-[09:34:57] [Server thread/INFO]: Secure signed chat and previews are enabled.
-[09:34:57] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[09:34:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:34:57] [Server thread/INFO]: Done (13.437s)! For help, type "help"
-[09:34:57] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[09:34:57] [Craft Scheduler Thread - 3/INFO]: §6Récupération des informations de version...
-[09:34:58] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
-[09:34:58] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
-[09:37:08] [User Authenticator #1/INFO]: UUID of player Blackcreed is 0b2f4860-2f7c-4b55-9e10-edcf7216a6a9
-[09:37:10] [Server thread/INFO]: Blackcreed joined the game
-[09:37:10] [Server thread/INFO]: Blackcreed[/127.0.0.1:57086] logged in with entity id 1 at ([plotworld]-93.45518188704342, -13.747286518822628, 93.974254958511)
-[09:37:10] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 68,250600ms. Summary: Getting prefix for Blackcreed
-[09:38:02] [Async Chat Thread - #0/INFO]: [m<[0;31;1m[ADMIN] Blackcreed[m> a[m
-[09:38:12] [Server thread/INFO]: Blackcreed issued server command: /lp editor
-[09:38:32] [Server thread/INFO]: Blackcreed issued server command: /lp trusteditor 854e-5c74
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.timeout true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic.formats true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.unstuck true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.walls true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe.area true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.forest true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic.list true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.replacenear true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.info true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.analysis.distr true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.sphere true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.move true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fill.recursive true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removebelow true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic.load true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.remove true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.extinguish true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.thru true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.shift true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.scripting.execute true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.outset true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.list true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.global-mask true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.overlay true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.cut true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.load true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.delchunks true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic.delete true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.descend true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.setwand true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.thaw true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.searchitem true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe.recursive true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.faces true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.line true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.snapshots.restore true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.cylinder true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fixwater true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.pyramid true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.thru.command true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.center true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic.save true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.reorder true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.stack true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.curve true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.data-cycler true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.perf true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.pos true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.undo.self true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.contract true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.jumpto true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.replace true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.pumpkins true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removenear true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.set true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.range true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.expand true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.forest true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fill true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.naturalize true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.undo true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.world true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.size true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.snapshots.list true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.wand true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.chunkinfo true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removeabove true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.ceiling true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.info true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.snapshots true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.watchdog true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fast true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.green true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.listchunks true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.mask true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.limit true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.hpos true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.calc true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.replacer true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.analysis.count true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.paste true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.set true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.farwand true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.tree true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.up true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.flood-fill true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.deform true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.butcher true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.hollow true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.redo true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.analysis true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.ascend true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.help true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.regen true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.jumpto.command true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fixlava true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.clear true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.save true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.wand.toggle true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.chunk true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.shape.biome true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.schematic true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.snow true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.shape true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.deltree true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.redo.self true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.copy true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.smooth true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.flip true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.drawsel true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.size true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.drain true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.material true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.rotate true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.lrbuild true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.inset true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.tracemask true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.flora true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.scripting true[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[09:44:21] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.clear true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.thru true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.setwand true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.center true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.shift true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.green true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.wand true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.ascend true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.listchunks true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.help true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.reorder true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.flip true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.drawsel true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.stack true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.curve true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.data-cycler true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.unstuck true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.mask true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.jumpto.command true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fixlava true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.walls true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe.area true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.limit true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.searchitem true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.clear true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.size true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.superpickaxe.recursive true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.forest true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.faces true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.scripting.execute true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.outset true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.hpos true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.pos true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.calc true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.line true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.save true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.list true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.global-mask true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.undo.self true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.replacer true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.drain true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.contract true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.replacenear true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.jumpto true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.replace true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.info true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.paste true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.pumpkins true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.material true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removenear true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.overlay true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.rotate true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.wand.toggle true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome.set true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.set true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.lrbuild true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.chunk true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.chunkinfo true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.shape.biome true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.range true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.inset true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.cut true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.expand true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removeabove true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.sphere true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.forest true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.ceiling true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.move true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.farwand true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.info true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.load true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.snow true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options.tracemask true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fill.recursive true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.flora true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.removebelow true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.tree true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fill true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.shape true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.up true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.flood-fill true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.cylinder true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.biome true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.fixwater true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.deform true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.brush.options true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.naturalize true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.scripting true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.butcher true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.clear true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.tool.deltree true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.undo true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.hollow true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.redo true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.remove true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.selection.size true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation.pyramid true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.history.redo.self true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.clipboard.copy true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.thru.command true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.region.smooth true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.navigation.descend true[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[09:44:22] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add worldedit.generation true[m
-[09:44:44] [Server thread/INFO]: Blackcreed issued server command: /lp user Blackcreed parent set builder
-[09:44:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mblackcreed[0;30;1m)[m
-[09:44:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set builder[m
-[09:44:45] [Async Chat Thread - #2/INFO]: [m<[0;33;22m[BUILDER] Blackcreed[m> a[m
-[09:45:04] [Server thread/INFO]: Blackcreed issued server command: //set 1
-[09:45:12] [Server thread/INFO]: Blackcreed issued server command: //set 1
-[09:45:14] [Server thread/INFO]: Blackcreed issued server command: //unso
-[09:45:16] [Server thread/INFO]: Blackcreed issued server command: //undo
-[09:45:35] [Server thread/INFO]: Made Blackcreed a server operator
-[09:45:49] [Server thread/INFO]: Blackcreed issued server command: /lp user Blackcreed parent set admin
-[09:45:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mBlackcreed[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mblackcreed[0;30;1m)[m
-[09:45:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set admin[m
-[09:45:49] [Async Chat Thread - #4/INFO]: [m<[0;31;1m[ADMIN] [0;31;22mBlackcreed[m> a[m
-[09:45:56] [Server thread/INFO]: Blackcreed lost connection: Disconnected
-[09:45:56] [Server thread/INFO]: Blackcreed left the game
-[09:46:04] [Server thread/INFO]: Stopping the server
-[09:46:04] [Server thread/INFO]: Stopping server
-[09:46:04] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v6.10.4-SNAPSHOT
-[09:46:04] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
-[09:46:04] [Server thread/INFO]: Disabling EssentialsChat v2.20.0-dev+17-6e931b2
-[09:46:04] [Server thread/INFO]: Disabling Essentials v2.19.7
-[09:46:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[09:46:04] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
-[09:46:04] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[09:46:04] [Server thread/INFO]: [VoxelSniper] Disabling VoxelSniper v8.3.0
-[09:46:04] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[09:46:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
-[09:46:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[09:46:04] [Server thread/INFO]: [LuckPerms] Closing storage...
-[09:46:04] [Server thread/INFO]: [LuckPerms] Goodbye!
-[09:46:04] [Server thread/INFO]: Saving players
-[09:46:04] [Server thread/INFO]: Saving worlds
-[09:46:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[plotworld]'/minecraft:overworld
-[09:46:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (plotworld): All chunks are saved
-[09:46:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:57:30] [ServerMain/INFO]: Building unoptimized datafixer
+[10:57:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:57:33] [ServerMain/INFO]: Loaded 7 recipes
+[10:57:34] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[10:57:34] [Server thread/INFO]: Loading properties
+[10:57:34] [Server thread/INFO]: This server is running CraftBukkit version 3606-Spigot-6198b5a-300e744 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[10:57:35] [Server thread/INFO]: Debug logging is disabled
+[10:57:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:57:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:57:35] [Server thread/INFO]: Default game type: SURVIVAL
+[10:57:35] [Server thread/INFO]: Generating keypair
+[10:57:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:57:35] [Server thread/INFO]: Using default channel type
+[10:57:36] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.40
+[10:57:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:57:36] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v8.3.0
+[10:57:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[10:57:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@bde58c3]
+[10:57:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
+[10:57:37] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+17-6e931b2
+[10:57:37] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v6.10.4-SNAPSHOT
+[10:57:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[10:57:38] [Server thread/INFO]:         __    
+[10:57:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[10:57:38] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[10:57:38] [Server thread/INFO]: 
+[10:57:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:57:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:57:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:57:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:57:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2187ms)
+[10:57:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:57:39] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.7 which is not a depend or softdepend of this plugin.
+[10:57:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:57:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:57:40] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:57:40] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:57:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[10:57:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:57:40] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:57:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[10:57:42] [Server thread/INFO]: [WorldEdit] ====================================================
+[10:57:42] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[10:57:42] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[10:57:42] [Server thread/INFO]: [WorldEdit]   
+[10:57:42] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[10:57:42] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[10:57:42] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[10:57:42] [Server thread/INFO]: [WorldEdit]   
+[10:57:42] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[10:57:42] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[10:57:42] [Server thread/INFO]: [WorldEdit]   
+[10:57:42] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[10:57:42] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[10:57:42] [Server thread/INFO]: [WorldEdit]   
+[10:57:42] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[10:57:42] [Server thread/INFO]: [WorldEdit] ====================================================
+[10:57:42] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v6.10.4-SNAPSHOT
+[10:57:42] [Server thread/INFO]: Loaded caption map for namespace 'plotsquared': com.plotsquared.core.configuration.caption.LocalizedCaptionMap
+[10:57:43] [Server thread/INFO]: Key: plot-expiry | Value: false
+[10:57:43] [Server thread/INFO]: Key: worlds | Value: false
+[10:57:43] [Server thread/INFO]: Key: kill-named-road-mobs | Value: false
+[10:57:43] [Server thread/INFO]: Key: per-user-locale | Value: false
+[10:57:43] [Server thread/INFO]: Key: worldedit-restrictions | Value: true
+[10:57:43] [Server thread/INFO]: Key: external-placeholders | Value: true
+[10:57:43] [Server thread/INFO]: Key: kill-owned-road-mobs | Value: false
+[10:57:43] [Server thread/INFO]: Key: disable-beacon-effect-overflow | Value: true
+[10:57:43] [Server thread/INFO]: Key: database | Value: true
+[10:57:43] [Server thread/INFO]: Key: component-presets | Value: true
+[10:57:43] [Server thread/INFO]: Key: chunk-processor | Value: false
+[10:57:43] [Server thread/INFO]: Key: extended-username-completion | Value: true
+[10:57:43] [Server thread/INFO]: Key: events | Value: true
+[10:57:43] [Server thread/INFO]: Key: commands | Value: true
+[10:57:43] [Server thread/INFO]: Key: kill-road-mobs | Value: false
+[10:57:43] [Server thread/INFO]: Key: kill-road-items | Value: false
+[10:57:43] [Server thread/INFO]: Key: database-purger | Value: false
+[10:57:43] [Server thread/INFO]: Key: economy | Value: false
+[10:57:43] [Server thread/INFO]: Key: persistent-road-regen | Value: true
+[10:57:43] [Server thread/INFO]: Key: kill-road-vehicles | Value: false
+[10:57:43] [Server thread/INFO]: Key: default-locale | Value: en
+[10:57:43] [Server thread/INFO]: Key: use-mvdwapi | Value: true
+[10:57:43] [Server thread/INFO]: Key: persistent-meta | Value: true
+[10:57:43] [Server thread/INFO]: Key: tab-completed-aliases | Value: [plot, plots, p, plotsquared, plot2, p2, ps, 2, plotme, plotz, ap]
+[10:57:43] [Server thread/INFO]: Key: ban-deleter | Value: false
+[10:57:43] [Server thread/INFO]: Key: update-notifications | Value: true
+[10:57:43] [Server thread/INFO]: Key: rating-cache | Value: true
+[10:57:43] [Server thread/INFO]: Key: comment-notifier | Value: true
+[10:57:43] [Server thread/INFO]: Couldn't verify purchase :(
+[10:57:43] [Server thread/INFO]: Connection to database established. Type: SQLite
+[10:57:43] [Server thread/INFO]: PlotSquared hooked into WorldEdit
+[10:57:44] [Server thread/INFO]: (UUID) Using LuckPerms as a complementary UUID service
+[10:57:44] [Server thread/INFO]: (UUID) Using EssentialsX as a complementary UUID service
+[10:57:44] [Server thread/INFO]: (UUID) 1 UUIDs will be cached
+[10:57:44] [Server thread/INFO]: Preparing level "plotworld"
+[10:57:44] [Server thread/INFO]: -------- World Settings For [plotworld] --------
+[10:57:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:57:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:57:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:57:44] [Server thread/INFO]: View Distance: 10
+[10:57:44] [Server thread/INFO]: Simulation Distance: 10
+[10:57:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:57:44] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:57:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:57:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:57:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:57:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:57:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:57:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:57:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:57:44] [Server thread/INFO]: Max TNT Explosions: 100
+[10:57:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:57:44] [Server thread/INFO]: Mob Spawn Range: 6
+[10:57:45] [Server thread/INFO]: Detected world load for 'plotworld'
+[10:57:45] [Server thread/INFO]: - generator: PlotSquared>PlotSquared
+[10:57:45] [Server thread/INFO]: - plot world: com.plotsquared.core.generator.HybridPlotWorld
+[10:57:45] [Server thread/INFO]: - plot area manager: com.plotsquared.core.generator.HybridPlotManager
+[10:57:45] [Server thread/INFO]: [P2] Area flags: []
+[10:57:45] [Server thread/INFO]: [P2] Road flags: []
+[10:57:45] [Server thread/INFO]: - Dumping settings for ClassicPlotWorld with name plotworld
+[10:57:45] [Server thread/INFO]: -- road_schematic_enabled = true
+[10:57:45] [Server thread/INFO]: -- plot_schematic = false
+[10:57:45] [Server thread/INFO]: -- plot_schematic_height = -1
+[10:57:45] [Server thread/INFO]: -- path_width_lower = 10
+[10:57:45] [Server thread/INFO]: -- path_width_upper = 212
+[10:57:45] [Server thread/INFO]: -- schem_y = -40
+[10:57:45] [Server thread/INFO]: -- road_height = -40
+[10:57:45] [Server thread/INFO]: -- plot_height = -40
+[10:57:45] [Server thread/INFO]: -- wall_height = -40
+[10:57:45] [Server thread/INFO]: -- main_block = minecraft:stone
+[10:57:45] [Server thread/INFO]: -- top_block = minecraft:grass_block
+[10:57:45] [Server thread/INFO]: -- wall_block = minecraft:stone_slab
+[10:57:45] [Server thread/INFO]: -- claimed_wall_block = minecraft:sandstone_slab
+[10:57:45] [Server thread/INFO]: -- wall_filling = minecraft:stone
+[10:57:45] [Server thread/INFO]: -- road_block = minecraft:quartz_block
+[10:57:45] [Server thread/INFO]: -- plot_bedrock = true
+[10:57:45] [Server thread/INFO]: -- place_top_block = true
+[10:57:45] [Server thread/INFO]: -- plot_width = 201
+[10:57:45] [Server thread/INFO]: -- road_width = 21
+[10:57:45] [Server thread/INFO]: -- road_offset_x = 0
+[10:57:45] [Server thread/INFO]: -- road_offset_z = 0
+[10:57:45] [Server thread/INFO]: -- size = 222
+[10:57:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:57:51] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:57:51] [Worker-Main-15/INFO]: Preparing spawn area: 29%
+[10:57:52] [Worker-Main-10/INFO]: Preparing spawn area: 89%
+[10:57:52] [Server thread/INFO]: Time elapsed: 6592 ms
+[10:57:52] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v8.3.0
+[10:57:52] [Server thread/INFO]: [VoxelSniper] Registered 68 Sniper Brushes with 134 handles.
+[10:57:52] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
+[10:57:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[10:57:53] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[10:57:53] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[10:57:53] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[10:57:53] [Server thread/INFO]: No kits found to migrate.
+[10:57:53] [Server thread/INFO]: Loaded 38132 items from items.json.
+[10:57:53] [Server thread/INFO]: Using locale fr_FR
+[10:57:53] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[10:57:53] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[10:57:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:57:53] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[10:57:53] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+17-6e931b2
+[10:57:53] [Server thread/WARN]: §4Versions différentes ! Veuillez mettre à jour tous les jars Essentials à la même version.
+[10:57:53] [Server thread/INFO]: Secure signed chat and previews are enabled.
+[10:57:53] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[10:57:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:57:53] [Server thread/INFO]: Done (9.518s)! For help, type "help"
+[10:57:53] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:57:53] [Craft Scheduler Thread - 3/INFO]: §6Récupération des informations de version...
+[10:57:53] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[10:57:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared will fetch UUIDs in groups of 200
+[10:57:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared has cached 100,0% of UUIDs
+[10:57:54] [pool-18-thread-1/INFO]: (UUID) PlotSquared has cached all UUIDs
+[10:57:54] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[10:58:44] [User Authenticator #1/INFO]: UUID of player Blackcreed is 0b2f4860-2f7c-4b55-9e10-edcf7216a6a9
+[10:58:45] [Server thread/INFO]: Blackcreed joined the game
+[10:58:45] [Server thread/INFO]: Blackcreed[/127.0.0.1:58363] logged in with entity id 1 at ([plotworld]-151.22640776776154, -31.639708756477813, 121.89176383061086)
+[10:58:46] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 28,053000ms. Summary: Getting prefix for Blackcreed
+[10:58:55] [Server thread/INFO]: Blackcreed lost connection: Disconnected
+[10:58:55] [Server thread/INFO]: Blackcreed left the game
+[11:00:01] [User Authenticator #2/INFO]: UUID of player Blackcreed is 0b2f4860-2f7c-4b55-9e10-edcf7216a6a9
+[11:00:01] [Server thread/INFO]: Blackcreed joined the game
+[11:00:01] [Server thread/INFO]: Blackcreed[/127.0.0.1:58442] logged in with entity id 85 at ([plotworld]-146.73058284774294, -31.639708756477813, 139.33750846589845)
+[11:00:10] [Server thread/INFO]: Blackcreed issued server command: /time set day
+[11:00:17] [Server thread/INFO]: Blackcreed issued server command: /gamerule doDaylightCycle false
+[11:00:17] [Server thread/INFO]: [Blackcreed: Gamerule doDaylightCycle is now set to: false]
+[11:00:22] [Server thread/INFO]: Blackcreed issued server command: /weather clear
+[11:00:30] [Server thread/INFO]: Blackcreed issued server command: /gamerule doWeatherCycle false
+[11:00:30] [Server thread/INFO]: [Blackcreed: Gamerule doWeatherCycle is now set to: false]
+[11:00:42] [Server thread/INFO]: Blackcreed issued server command: /plot remove
+[11:00:48] [Server thread/INFO]: Blackcreed issued server command: /plot clear
+[11:01:52] [Server thread/INFO]: Blackcreed issued server command: /plot remove Blackcreed
+[11:02:47] [Server thread/INFO]: Blackcreed issued server command: /p unclaim
+[11:02:52] [Server thread/INFO]: Blackcreed issued server command: /plot unclaim
+[11:02:59] [Server thread/INFO]: Blackcreed issued server command: /plot claim
+[11:03:10] [Server thread/INFO]: Blackcreed issued server command: /p delete
+[11:03:15] [Server thread/INFO]: Blackcreed issued server command: /plot delete
+[11:03:27] [Server thread/INFO]: Blackcreed issued server command: /plot dispose
+[11:03:44] [Server thread/INFO]: Blackcreed issued server command: /plot dispose
+[11:03:50] [Server thread/INFO]: Blackcreed issued server command: /plot delete
+[11:03:58] [Server thread/INFO]: Blackcreed lost connection: Disconnected
+[11:03:58] [Server thread/INFO]: Blackcreed left the game
+[11:04:03] [Server thread/INFO]: Stopping the server
+[11:04:03] [Server thread/INFO]: Stopping server
+[11:04:03] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v6.10.4-SNAPSHOT
+[11:04:03] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[11:04:03] [Server thread/INFO]: Disabling EssentialsChat v2.20.0-dev+17-6e931b2
+[11:04:03] [Server thread/INFO]: Disabling Essentials v2.19.7
+[11:04:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:04:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[11:04:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:04:03] [Server thread/INFO]: [VoxelSniper] Disabling VoxelSniper v8.3.0
+[11:04:03] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:04:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.40
+[11:04:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:04:03] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:04:03] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:04:03] [Server thread/INFO]: Saving players
+[11:04:03] [Server thread/INFO]: Saving worlds
+[11:04:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[plotworld]'/minecraft:overworld
+[11:04:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (plotworld): All chunks are saved
+[11:04:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
